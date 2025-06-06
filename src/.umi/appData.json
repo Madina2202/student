@@ -1,0 +1,2428 @@
+{
+  "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+  "pkg": {
+    "private": true,
+    "author": "",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "antd": "^5.25.1",
+      "@umijs/max": "^4.4.11"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.33",
+      "@types/react-dom": "^18.0.11",
+      "typescript": "^5.0.3"
+    }
+  },
+  "pkgPath": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp\\package.json",
+  "plugins": {
+    "@umijs/core/dist/service/servicePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/core/dist/service/servicePlugin",
+      "key": "servicePlugin"
+    },
+    "@umijs/preset-umi": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 37
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/index.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi",
+      "key": "umi"
+    },
+    "@umijs/max/dist/preset": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 8
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/max/dist/preset.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/max/dist/preset",
+      "key": "preset"
+    },
+    "@umijs/preset-umi/dist/registerMethods": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            7
+          ]
+        },
+        "register": 8
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/registerMethods",
+      "key": "registerMethods"
+    },
+    "@umijs/did-you-know": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            3
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/did-you-know",
+      "key": "umijsDidYouKnow"
+    },
+    "@umijs/preset-umi/dist/features/404/404": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyRoutes": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/404/404",
+      "key": "404"
+    },
+    "@umijs/preset-umi/dist/features/appData/appData": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            11
+          ]
+        },
+        "register": 33
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/appData/appData",
+      "key": "appData"
+    },
+    "@umijs/preset-umi/dist/features/appData/umiInfo": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/appData/umiInfo",
+      "key": "umiInfo"
+    },
+    "@umijs/preset-umi/dist/features/check/check": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckConfig": [
+            0
+          ],
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/check/check",
+      "key": "check"
+    },
+    "@umijs/preset-umi/dist/features/check/babel722": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/check/babel722",
+      "key": "babel722"
+    },
+    "@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
+      "key": "codeSplitting"
+    },
+    "@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 17
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/configPlugins/configPlugins",
+      "key": "configPlugins"
+    },
+    "virtual: config-title": {
+      "id": "virtual: config-title",
+      "key": "title",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styles": {
+      "id": "virtual: config-styles",
+      "key": "styles",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-scripts": {
+      "id": "virtual: config-scripts",
+      "key": "scripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routes": {
+      "id": "virtual: config-routes",
+      "key": "routes",
+      "config": {
+        "onChange": "regenerateTmpFiles"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routeLoader": {
+      "id": "virtual: config-routeLoader",
+      "key": "routeLoader",
+      "config": {
+        "default": {
+          "moduleType": "esm"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-reactRouter5Compat": {
+      "id": "virtual: config-reactRouter5Compat",
+      "key": "reactRouter5Compat",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-presets": {
+      "id": "virtual: config-presets",
+      "key": "presets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-plugins": {
+      "id": "virtual: config-plugins",
+      "key": "plugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-npmClient": {
+      "id": "virtual: config-npmClient",
+      "key": "npmClient",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mountElementId": {
+      "id": "virtual: config-mountElementId",
+      "key": "mountElementId",
+      "config": {
+        "default": "root"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-metas": {
+      "id": "virtual: config-metas",
+      "key": "metas",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-links": {
+      "id": "virtual: config-links",
+      "key": "links",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-historyWithQuery": {
+      "id": "virtual: config-historyWithQuery",
+      "key": "historyWithQuery",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-history": {
+      "id": "virtual: config-history",
+      "key": "history",
+      "config": {
+        "default": {
+          "type": "browser"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-headScripts": {
+      "id": "virtual: config-headScripts",
+      "key": "headScripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esbuildMinifyIIFE": {
+      "id": "virtual: config-esbuildMinifyIIFE",
+      "key": "esbuildMinifyIIFE",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionRoutes": {
+      "id": "virtual: config-conventionRoutes",
+      "key": "conventionRoutes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionLayout": {
+      "id": "virtual: config-conventionLayout",
+      "key": "conventionLayout",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-base": {
+      "id": "virtual: config-base",
+      "key": "base",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-analyze": {
+      "id": "virtual: config-analyze",
+      "key": "analyze",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-writeToDisk": {
+      "id": "virtual: config-writeToDisk",
+      "key": "writeToDisk",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-transformRuntime": {
+      "id": "virtual: config-transformRuntime",
+      "key": "transformRuntime",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-theme": {
+      "id": "virtual: config-theme",
+      "key": "theme",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-targets": {
+      "id": "virtual: config-targets",
+      "key": "targets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgr": {
+      "id": "virtual: config-svgr",
+      "key": "svgr",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgo": {
+      "id": "virtual: config-svgo",
+      "key": "svgo",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-stylusLoader": {
+      "id": "virtual: config-stylusLoader",
+      "key": "stylusLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styleLoader": {
+      "id": "virtual: config-styleLoader",
+      "key": "styleLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspilerOptions": {
+      "id": "virtual: config-srcTranspilerOptions",
+      "key": "srcTranspilerOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspiler": {
+      "id": "virtual: config-srcTranspiler",
+      "key": "srcTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-sassLoader": {
+      "id": "virtual: config-sassLoader",
+      "key": "sassLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-runtimePublicPath": {
+      "id": "virtual: config-runtimePublicPath",
+      "key": "runtimePublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-purgeCSS": {
+      "id": "virtual: config-purgeCSS",
+      "key": "purgeCSS",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-publicPath": {
+      "id": "virtual: config-publicPath",
+      "key": "publicPath",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-proxy": {
+      "id": "virtual: config-proxy",
+      "key": "proxy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-postcssLoader": {
+      "id": "virtual: config-postcssLoader",
+      "key": "postcssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-outputPath": {
+      "id": "virtual: config-outputPath",
+      "key": "outputPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-normalCSSLoaderModules": {
+      "id": "virtual: config-normalCSSLoaderModules",
+      "key": "normalCSSLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mfsu": {
+      "id": "virtual: config-mfsu",
+      "key": "mfsu",
+      "config": {
+        "default": {
+          "strategy": "eager"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mdx": {
+      "id": "virtual: config-mdx",
+      "key": "mdx",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-manifest": {
+      "id": "virtual: config-manifest",
+      "key": "manifest",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-lessLoader": {
+      "id": "virtual: config-lessLoader",
+      "key": "lessLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifierOptions": {
+      "id": "virtual: config-jsMinifierOptions",
+      "key": "jsMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifier": {
+      "id": "virtual: config-jsMinifier",
+      "key": "jsMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-inlineLimit": {
+      "id": "virtual: config-inlineLimit",
+      "key": "inlineLimit",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-ignoreMomentLocale": {
+      "id": "virtual: config-ignoreMomentLocale",
+      "key": "ignoreMomentLocale",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-https": {
+      "id": "virtual: config-https",
+      "key": "https",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-hash": {
+      "id": "virtual: config-hash",
+      "key": "hash",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-forkTSChecker": {
+      "id": "virtual: config-forkTSChecker",
+      "key": "forkTSChecker",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-fastRefresh": {
+      "id": "virtual: config-fastRefresh",
+      "key": "fastRefresh",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraPostCSSPlugins": {
+      "id": "virtual: config-extraPostCSSPlugins",
+      "key": "extraPostCSSPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPresets": {
+      "id": "virtual: config-extraBabelPresets",
+      "key": "extraBabelPresets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPlugins": {
+      "id": "virtual: config-extraBabelPlugins",
+      "key": "extraBabelPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelIncludes": {
+      "id": "virtual: config-extraBabelIncludes",
+      "key": "extraBabelIncludes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-externals": {
+      "id": "virtual: config-externals",
+      "key": "externals",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esm": {
+      "id": "virtual: config-esm",
+      "key": "esm",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-devtool": {
+      "id": "virtual: config-devtool",
+      "key": "devtool",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-depTranspiler": {
+      "id": "virtual: config-depTranspiler",
+      "key": "depTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-define": {
+      "id": "virtual: config-define",
+      "key": "define",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-deadCode": {
+      "id": "virtual: config-deadCode",
+      "key": "deadCode",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssPublicPath": {
+      "id": "virtual: config-cssPublicPath",
+      "key": "cssPublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifierOptions": {
+      "id": "virtual: config-cssMinifierOptions",
+      "key": "cssMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifier": {
+      "id": "virtual: config-cssMinifier",
+      "key": "cssMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoaderModules": {
+      "id": "virtual: config-cssLoaderModules",
+      "key": "cssLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoader": {
+      "id": "virtual: config-cssLoader",
+      "key": "cssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-copy": {
+      "id": "virtual: config-copy",
+      "key": "copy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-checkDepCssModules": {
+      "id": "virtual: config-checkDepCssModules",
+      "key": "checkDepCssModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-chainWebpack": {
+      "id": "virtual: config-chainWebpack",
+      "key": "chainWebpack",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cacheDirectoryPath": {
+      "id": "virtual: config-cacheDirectoryPath",
+      "key": "cacheDirectoryPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-babelLoaderCustomize": {
+      "id": "virtual: config-babelLoaderCustomize",
+      "key": "babelLoaderCustomize",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoprefixer": {
+      "id": "virtual: config-autoprefixer",
+      "key": "autoprefixer",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoCSSModules": {
+      "id": "virtual: config-autoCSSModules",
+      "key": "autoCSSModules",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-alias": {
+      "id": "virtual: config-alias",
+      "key": "alias",
+      "config": {
+        "default": {
+          "umi": "@@/exports",
+          "react": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react",
+          "react-dom": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-dom",
+          "react-router": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-router",
+          "react-router-dom": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-router-dom"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/crossorigin/crossorigin",
+      "key": "crossorigin"
+    },
+    "@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
+      "key": "depsOnDemand"
+    },
+    "@umijs/preset-umi/dist/features/devTool/devTool": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/devTool/devTool",
+      "key": "devTool"
+    },
+    "@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 103
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
+      "key": "esbuildHelperChecker"
+    },
+    "@umijs/preset-umi/dist/features/esmi/esmi": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 187
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/esmi/esmi",
+      "key": "esmi"
+    },
+    "@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 27
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/exportStatic/exportStatic",
+      "key": "exportStatic"
+    },
+    "@umijs/preset-umi/dist/features/favicons/favicons": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/favicons/favicons",
+      "key": "favicons"
+    },
+    "@umijs/preset-umi/dist/features/helmet/helmet": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/helmet/helmet",
+      "key": "helmet"
+    },
+    "@umijs/preset-umi/dist/features/icons/icons": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/icons/icons",
+      "key": "icons"
+    },
+    "@umijs/preset-umi/dist/features/mock/mock": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            2
+          ]
+        },
+        "register": 44
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/mock/mock",
+      "key": "mock"
+    },
+    "@umijs/preset-umi/dist/features/mpa/mpa": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/mpa/mpa",
+      "key": "mpa"
+    },
+    "@umijs/preset-umi/dist/features/okam/okam": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/okam/okam",
+      "key": "okam"
+    },
+    "@umijs/preset-umi/dist/features/overrides/overrides": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/overrides/overrides",
+      "key": "overrides"
+    },
+    "@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
+      "key": "phantomDependency"
+    },
+    "@umijs/preset-umi/dist/features/polyfill/polyfill": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            1
+          ]
+        },
+        "register": 8
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/polyfill/polyfill",
+      "key": "polyfill"
+    },
+    "@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
+      "key": "publicPathPolyfill"
+    },
+    "@umijs/preset-umi/dist/features/prepare/prepare": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/prepare/prepare",
+      "key": "prepare"
+    },
+    "@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
+      "key": "routePrefetch"
+    },
+    "@umijs/preset-umi/dist/features/terminal/terminal": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/terminal/terminal",
+      "key": "terminal"
+    },
+    "@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 10
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
+      "key": "tmpFiles"
+    },
+    "@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/clientLoader/clientLoader",
+      "key": "clientLoader"
+    },
+    "@umijs/preset-umi/dist/features/routeProps/routeProps": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/routeProps/routeProps",
+      "key": "routeProps"
+    },
+    "@umijs/preset-umi/dist/features/ssr/ssr": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 7
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/ssr/ssr",
+      "key": "ssr"
+    },
+    "@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 7
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/tmpFiles/configTypes",
+      "key": "configTypes"
+    },
+    "@umijs/preset-umi/dist/features/transform/transform": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 7
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/transform/transform",
+      "key": "transform"
+    },
+    "@umijs/preset-umi/dist/features/lowImport/lowImport": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 6
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/lowImport/lowImport",
+      "key": "lowImport"
+    },
+    "@umijs/preset-umi/dist/features/vite/vite": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/vite/vite",
+      "key": "vite"
+    },
+    "@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 11
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/apiRoute/apiRoute",
+      "key": "apiRoute"
+    },
+    "@umijs/preset-umi/dist/features/monorepo/redirect": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 33
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/monorepo/redirect",
+      "key": "monorepoRedirect"
+    },
+    "@umijs/preset-umi/dist/features/test/test": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/test/test",
+      "key": "test"
+    },
+    "@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
+      "key": "clickToComponent"
+    },
+    "@umijs/preset-umi/dist/features/legacy/legacy": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/legacy/legacy",
+      "key": "legacy"
+    },
+    "@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
+      "key": "classPropertiesLoose"
+    },
+    "@umijs/preset-umi/dist/features/webpack/webpack": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/webpack/webpack",
+      "key": "preset-umi:webpack"
+    },
+    "@umijs/preset-umi/dist/features/swc/swc": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "addOnDemandDeps": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/swc/swc",
+      "key": "swc"
+    },
+    "@umijs/preset-umi/dist/features/ui/ui": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 6
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/ui/ui",
+      "key": "ui"
+    },
+    "@umijs/preset-umi/dist/features/mako/mako": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/mako/mako",
+      "key": "mako"
+    },
+    "@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
+      "key": "hmrGuardian"
+    },
+    "@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
+      "key": "routePreloadOnLoad"
+    },
+    "@umijs/preset-umi/dist/features/forget/forget": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/forget/forget",
+      "key": "forget"
+    },
+    "@umijs/preset-umi/dist/features/bundler/bundler": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/features/bundler/bundler",
+      "key": "preset-umi:bundler"
+    },
+    "@umijs/preset-umi/dist/commands/build": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/build",
+      "key": "build"
+    },
+    "@umijs/preset-umi/dist/commands/config/config": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 52
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/config/config",
+      "key": "config"
+    },
+    "@umijs/preset-umi/dist/commands/dev/dev": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            25
+          ],
+          "onStart": [
+            0
+          ]
+        },
+        "register": 70
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/dev/dev",
+      "key": "dev"
+    },
+    "@umijs/preset-umi/dist/commands/help": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/help",
+      "key": "help"
+    },
+    "@umijs/preset-umi/dist/commands/lint": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/lint",
+      "key": "lint"
+    },
+    "@umijs/preset-umi/dist/commands/setup": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/setup",
+      "key": "setup"
+    },
+    "@umijs/preset-umi/dist/commands/deadcode": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/deadcode",
+      "key": "deadcode"
+    },
+    "@umijs/preset-umi/dist/commands/version": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/version",
+      "key": "version"
+    },
+    "@umijs/preset-umi/dist/commands/generators/page": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/page",
+      "key": "generator:page"
+    },
+    "@umijs/preset-umi/dist/commands/generators/prettier": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/prettier",
+      "key": "generator:prettier"
+    },
+    "@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig"
+    },
+    "@umijs/preset-umi/dist/commands/generators/jest": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest"
+    },
+    "@umijs/preset-umi/dist/commands/generators/tailwindcss": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss"
+    },
+    "@umijs/preset-umi/dist/commands/generators/dva": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva"
+    },
+    "@umijs/preset-umi/dist/commands/generators/component": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component"
+    },
+    "@umijs/preset-umi/dist/commands/generators/mock": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock"
+    },
+    "@umijs/preset-umi/dist/commands/generators/cypress": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress"
+    },
+    "@umijs/preset-umi/dist/commands/generators/api": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api"
+    },
+    "@umijs/preset-umi/dist/commands/generators/precommit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit"
+    },
+    "@umijs/preset-umi/dist/commands/plugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin"
+    },
+    "@umijs/preset-umi/dist/commands/verify-commit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit"
+    },
+    "@umijs/preset-umi/dist/commands/preview": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 28
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/preview",
+      "key": "preview"
+    },
+    "@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "key": "mfsu-cli"
+    },
+    "@umijs/plugin-run": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugin-run/dist/index.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugin-run",
+      "key": "run"
+    },
+    "@umijs/plugins/dist/access": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/access.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/access",
+      "key": "access"
+    },
+    "@umijs/plugins/dist/analytics": {
+      "config": {
+        "onChange": "reload"
+      },
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/analytics.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/analytics",
+      "key": "analytics"
+    },
+    "@umijs/plugins/dist/antd": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 7
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/antd.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/antd",
+      "key": "antd"
+    },
+    "@umijs/plugins/dist/dva": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 10
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/dva.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/dva",
+      "key": "dva"
+    },
+    "@umijs/plugins/dist/initial-state": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/initial-state.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/initial-state",
+      "key": "initialState"
+    },
+    "@umijs/plugins/dist/layout": {
+      "config": {
+        "onChange": "regenerateTmpFiles"
+      },
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/layout.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/layout",
+      "key": "layout"
+    },
+    "@umijs/plugins/dist/locale": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/locale.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/locale",
+      "key": "locale"
+    },
+    "@umijs/plugins/dist/mf": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/mf.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/mf",
+      "key": "mf"
+    },
+    "@umijs/plugins/dist/model": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/model.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/model",
+      "key": "model"
+    },
+    "@umijs/plugins/dist/moment2dayjs": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/moment2dayjs",
+      "key": "moment2dayjs"
+    },
+    "@umijs/plugins/dist/qiankun": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/qiankun.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/qiankun",
+      "key": "qiankun"
+    },
+    "@umijs/plugins/dist/qiankun/master": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/qiankun/master.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/qiankun/master",
+      "key": "qiankun-master"
+    },
+    "@umijs/plugins/dist/qiankun/slave": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/qiankun/slave.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/qiankun/slave",
+      "key": "qiankun-slave"
+    },
+    "@umijs/plugins/dist/react-query": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/react-query.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/react-query",
+      "key": "reactQuery"
+    },
+    "@umijs/plugins/dist/request": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/request.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/request",
+      "key": "request"
+    },
+    "@umijs/plugins/dist/styled-components": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/styled-components.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/styled-components",
+      "key": "styledComponents"
+    },
+    "@umijs/plugins/dist/tailwindcss": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/tailwindcss.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/tailwindcss",
+      "key": "tailwindcss"
+    },
+    "@umijs/plugins/dist/valtio": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/plugins/dist/valtio.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/plugins/dist/valtio",
+      "key": "valtio"
+    },
+    "@umijs/max/dist/plugins/maxAlias": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/max/dist/plugins/maxAlias.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/max/dist/plugins/maxAlias",
+      "key": "maxAlias"
+    },
+    "@umijs/max/dist/plugins/maxAppData": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/max/dist/plugins/maxAppData.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/max/dist/plugins/maxAppData",
+      "key": "maxAppData"
+    },
+    "@umijs/max/dist/plugins/maxChecker": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckPkgJSON": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/max/dist/plugins/maxChecker.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/max/dist/plugins/maxChecker",
+      "key": "maxChecker"
+    },
+    "@umijs/core/dist/service/generatePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "cwd": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp",
+      "id": "@umijs/core/dist/service/generatePlugin",
+      "key": "generatePlugin"
+    }
+  },
+  "presets": [],
+  "name": "dev",
+  "args": {
+    "_": []
+  },
+  "userConfig": {
+    "request": {},
+    "proxy": {
+      "/api/": {
+        "target": "http://127.0.0.1:5294/",
+        "changeOrigin": true
+      }
+    },
+    "routes": [
+      {
+        "path": "/Auth",
+        "component": "Auth"
+      },
+      {
+        "path": "/",
+        "component": "index"
+      },
+      {
+        "path": "/docs",
+        "component": "docs"
+      },
+      {
+        "path": "/user",
+        "component": "user"
+      },
+      {
+        "path": "/Group",
+        "component": "Group"
+      },
+      {
+        "path": "/user/:id",
+        "component": "user/$id"
+      }
+    ],
+    "npmClient": "npm"
+  },
+  "mainConfigFile": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\StudentClientApp\\.umirc.ts",
+  "config": {
+    "routeLoader": {
+      "moduleType": "esm"
+    },
+    "mountElementId": "root",
+    "history": {
+      "type": "browser"
+    },
+    "base": "/",
+    "svgr": {},
+    "publicPath": "/",
+    "mfsu": {
+      "strategy": "eager"
+    },
+    "ignoreMomentLocale": true,
+    "externals": {},
+    "autoCSSModules": true,
+    "alias": {
+      "umi": "@@/exports",
+      "react": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react",
+      "react-dom": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-dom",
+      "react-router": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-router",
+      "react-router-dom": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-router-dom",
+      "@": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src",
+      "@@": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/.umi",
+      "regenerator-runtime": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\@umijs\\preset-umi\\node_modules\\regenerator-runtime",
+      "@umijs/max": "@@/exports"
+    },
+    "request": {},
+    "proxy": {
+      "/api/": {
+        "target": "http://127.0.0.1:5294/",
+        "changeOrigin": true
+      }
+    },
+    "routes": [
+      {
+        "path": "/Auth",
+        "component": "Auth"
+      },
+      {
+        "path": "/",
+        "component": "index"
+      },
+      {
+        "path": "/docs",
+        "component": "docs"
+      },
+      {
+        "path": "/user",
+        "component": "user"
+      },
+      {
+        "path": "/Group",
+        "component": "Group"
+      },
+      {
+        "path": "/user/:id",
+        "component": "user/$id"
+      }
+    ],
+    "npmClient": "npm",
+    "targets": {
+      "chrome": 80
+    }
+  },
+  "routes": {
+    "1": {
+      "path": "/Auth",
+      "file": "@/pages/Auth.tsx",
+      "parentId": "@@/global-layout",
+      "id": "1",
+      "absPath": "/Auth",
+      "__content": "import { useNavigate } from '@umijs/max';\nimport { Button, Form, Input, message } from 'antd';\nimport { request } from '@umijs/max';\nimport { useState } from 'react';\n\n//export default function Auth() {\n    \n    //const loginHandler = (data: any) => {\n        //console.log(data);\n        //request('/api/Auth/Login', { data, method: 'POST' })\n            //.then((result: any) => {\n                //if (result.status != 0) {\n                    //message.error(\"Не удалось авторизоваться\");\n                    //localStorage.removeItem('token');\n               // }\n               // else\n                //{\n                    \n                  //  message.success(\"Авторизация прошла успешно\")\n               // }\n           // })\n    //}\n\n\n    export default function Auth() { \n    const [loading, setLoading] = useState(false);\n    const loginHandler = (data: any) => {\n        console.log(data); }\n    const navigate = useNavigate();\n\n    const onFinish = async (values: { email: string; password: string }) => {\n        setLoading(true);\n        try {\n            const response = await request('/api/Auth/Login', {\n                method: 'POST',\n                data: values,\n            });\n            if (response && response.token) {\n                localStorage.setItem('token', response.token);\n                message.success('Успешная авторизация');\n                navigate('/'); // редирект на главную\n            } else {\n                message.error('Неверный ответ от сервера');\n            }\n        } catch (error: any) {\n            message.error('Ошибка авторизации');\n        } finally {\n            setLoading(false);\n        }\n    };\n\n\n        return (\n            <div>\n                <Form\n                    layout=\"inline\"\n                    onFinish={loginHandler}\n                >\n                    <Form.Item name=\"email\" label=\"Логин\" className=\"input-inline\">\n                        <Input />\n                    </Form.Item>\n\n                    <Form.Item name=\"password\" label=\"Пароль\" className=\"input-inline\">\n                        <Input.Password />\n                    </Form.Item>\n\n                    <Form.Item>\n                        <Button type=\"primary\" htmlType=\"submit\">Авторизоваться</Button>\n                    </Form.Item>\n                </Form>\n            </div>\n        );\n}\n\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/Auth.tsx"
+    },
+    "2": {
+      "path": "/",
+      "file": "@/pages/index.tsx",
+      "parentId": "@@/global-layout",
+      "id": "2",
+      "absPath": "/",
+      "__content": "import { request } from '@umijs/max';\nimport { Button,Form,Input,message,Modal,Popconfirm,Select,Space,Table, } from 'antd';\nimport { useEffect, useState } from 'react';\n\n// DTO из C#\ninterface Student {\n    id: number;\n    lastname: string;\n    firstname: string;\n    midname: string;\n    email: string;\n    groupName: string;\n}\n\ninterface StudentAddDto {\n    lastname: string;\n    firstname: string;\n    midname: string;\n    email: string;\n    password: string;\n    groupId: string;\n}\n\ninterface GroupOption {\n    value: string; // ⚠ string, потому что C# string\n    label: string;\n}\n\nexport default function HomePage() {\n    const [dataSource, setDataSource] = useState<Student[]>([]);\n    const [groupOptions, setGroupOptions] = useState<GroupOption[]>([]);\n    const [isModalOpen, setIsModalOpen] = useState(false);\n    const [formEdit] = Form.useForm();\n\n    // загрузка данных\n    const loadStudents = () => {\n        request('http://localhost:8000/api/Student/GetAll', { method: 'GET' })\n            .then((result: Student[]) => {\n                setDataSource(result);\n            })\n            .catch(() => message.error('Ошибка загрузки студентов'));\n    };\n\n    const loadGroups = () => {\n        request('/api/Group/GetAll', { method: 'GET' }).then((result: any[]) => {\n            const options = result.map((item) => ({\n                value: String(item.id), // ⚠ string\n                label: item.name,\n            }));\n            setGroupOptions(options);\n        });\n    };\n\n    useEffect(() => {\n        loadStudents();\n        loadGroups();\n    }, []);\n\n    // поиск студентов\n    const updateData = (values: any) => {\n        const searchDto = {\n            groupId: values.groupId || '-1', // -1 если не выбрано\n            lastname: values.lastname || '',\n            firstname: values.firstname || '',\n            midname: values.midname || '',\n            email: values.email || '',\n        };\n\n        request('http://localhost:8000/api/Student/FindUsers', {\n            method: 'POST',\n            data: searchDto,\n        })\n            .then((result: Student[]) => {\n                setDataSource(result);\n            })\n            .catch(() => message.error('Ошибка поиска студентов'));\n    };\n\n    // удаление\n    const onRemove = (studentId: number) => {\n        request(`/api/Student/Delete?id=${studentId}`, {\n            method: 'DELETE',\n        })\n            .then(() => {\n                setDataSource((prev) => prev.filter((item) => item.id !== studentId));\n                message.success('Студент удалён');\n            })\n            .catch(() => message.error('Ошибка при удалении'));\n    };\n\n    // добавление нового\n    const onStudentAdd = (values: any) => {\n        const dataToSend: StudentAddDto = {\n            lastname: values.lastname,\n            firstname: values.firstname,\n            midname: values.midname,\n            email: values.email,\n            password: values.password,\n            groupId: String(values.groupId),\n        };\n\n        request('api/Student/Add', { method: 'PUT', data: dataToSend })\n            .then(() => {\n                setIsModalOpen(false);\n                loadStudents();\n                message.success('Новый студент добавлен');\n            })\n            .catch(() => message.error('Ошибка при добавлении'));\n    };\n\n    // редактирование\n    const onStudentEdit = (values: any) => {\n        const dataToSend = {\n            id: values.id,\n            lastname: values.lastname,\n            firstname: values.firstname,\n            midname: values.midname,\n            email: values.email,\n            password: values.password,\n            groupId: String(values.groupId),\n        };\n\n        request('api/Student/Post', { method: 'POST', data: dataToSend })\n            .then(() => {\n                setIsModalOpen(false);\n                loadStudents();\n                message.success('Данные студента обновлены');\n            })\n            .catch(() => message.error('Ошибка при обновлении'));\n    };\n\n    // открыть модалку для редактирования\n    const onEdit = (id: number) => {\n        request(`/api/Student/Get?id=${id}`, { method: 'GET' }).then((result: Student) => {\n            formEdit.setFieldsValue(result);\n            setIsModalOpen(true);\n        });\n    };\n\n    const columns = [\n        { title: 'Id', dataIndex: 'id' },\n        { title: 'Фамилия', dataIndex: 'lastname' },\n        { title: 'Имя', dataIndex: 'firstname' },\n        { title: 'Отчество', dataIndex: 'midname' },\n        { title: 'E-mail', dataIndex: 'email' },\n        { title: 'Группа', dataIndex: 'groupName' },\n        {\n            title: 'Действия',\n            key: 'action',\n            render: (_: any, record: { id: number; }) => (\n                <Space>\n                    <Popconfirm\n                        title=\"Вы уверены?\"\n                        okText=\"Да\"\n                        cancelText=\"Нет\"\n                        onConfirm={() => onRemove(record.id)}\n                    >\n                        <a>Удалить</a>\n                    </Popconfirm>\n                    <Button type=\"link\" onClick={() => onEdit(record.id)}>\n                        Редактировать\n                    </Button>\n                </Space>\n            ),\n        },\n    ];\n\n    return (\n        <div>\n            <Form layout=\"inline\" onFinish={updateData}>\n                <Form.Item name=\"groupId\" label=\"Группа\">\n                    <Select allowClear options={groupOptions} style={{ width: '200px' }} />\n                </Form.Item>\n                <Form.Item name=\"lastname\" label=\"Фамилия\">\n                    <Input />\n                </Form.Item>\n                <Form.Item name=\"firstname\" label=\"Имя\">\n                    <Input />\n                </Form.Item>\n                <Form.Item name=\"midname\" label=\"Отчество\">\n                    <Input />\n                </Form.Item>\n                <Form.Item name=\"email\" label=\"E-mail\">\n                    <Input />\n                </Form.Item>\n                <Button type=\"primary\" htmlType=\"submit\">\n                    Найти\n                </Button>\n            </Form>\n\n            <Button\n                type=\"primary\"\n                onClick={() => {\n                    formEdit.resetFields();\n                    setIsModalOpen(true);\n                }}\n                style={{ margin: '16px 0' }}\n            >\n                Новый студент\n            </Button>\n\n            <Modal\n                title=\"Создание / редактирование студента\"\n                open={isModalOpen}\n                onCancel={() => setIsModalOpen(false)}\n                footer={null}\n            >\n                <Form\n                    form={formEdit}\n                    layout=\"horizontal\"\n                    labelCol={{ span: 6 }}\n                    onFinish={(values) => {\n                        if (values.id) {\n                            onStudentEdit(values);\n                        } else {\n                            onStudentAdd(values);\n                        }\n                    }}\n                >\n                    <Form.Item name=\"id\" hidden>\n                        <Input />\n                    </Form.Item>\n                    <Form.Item name=\"lastname\" label=\"Фамилия\" rules={[{ required: true }]}>\n                        <Input />\n                    </Form.Item>\n                    <Form.Item name=\"firstname\" label=\"Имя\" rules={[{ required: true }]}>\n                        <Input />\n                    </Form.Item>\n                    <Form.Item name=\"midname\" label=\"Отчество\">\n                        <Input />\n                    </Form.Item>\n                    <Form.Item name=\"email\" label=\"E-mail\" rules={[{ type: 'email' }]}>\n                        <Input />\n                    </Form.Item>\n                    <Form.Item name=\"password\" label=\"Пароль\">\n                        <Input.Password />\n                    </Form.Item>\n                    <Form.Item name=\"groupId\" label=\"Группа\">\n                        <Select allowClear options={groupOptions} />\n                    </Form.Item>\n                    <Form.Item>\n                        <Button type=\"primary\" htmlType=\"submit\">\n                            Сохранить\n                        </Button>\n                    </Form.Item>\n                </Form>\n            </Modal>\n\n            <Table rowKey=\"id\" dataSource={dataSource} columns={columns} />\n        </div>\n    );\n}\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/index.tsx"
+    },
+    "3": {
+      "path": "/docs",
+      "file": "@/pages/docs.tsx",
+      "parentId": "@@/global-layout",
+      "id": "3",
+      "absPath": "/docs",
+      "__content": "import DeveloperList from \"@/coments/DeveloperList\";\nimport { Input } from \"antd\";\n\nconst DocsPage = () => {\n\n\n  const c: Person = { firstName: 'Иван', lastName: 'Иванов', midName: 'Иванович', age: 20 };\n \n  return (\n    \n    <div>\n      <p>Автор программы - {c.lastName} {c.firstName} {c.midName} </p>\n   <DeveloperList />\n   <Input />\n    </div>\n  );\n};\n\nexport default DocsPage;\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/docs.tsx"
+    },
+    "4": {
+      "path": "/user",
+      "file": "@/pages/user.tsx",
+      "parentId": "@@/global-layout",
+      "id": "4",
+      "absPath": "/user",
+      "__content": "import DeveloperList from \"@/coments/DeveloperList\";\nimport { Input } from \"antd\";\n\nexport default function () {\n\n  return (\n    \n    <div>\n    123\n    </div>\n  );\n};\n\n\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/user.tsx"
+    },
+    "5": {
+      "path": "/Group",
+      "file": "@/pages/Group.tsx",
+      "parentId": "@@/global-layout",
+      "id": "5",
+      "absPath": "/Group",
+      "__content": "import { useEffect, useState } from 'react';\nimport { Button, Form, Input, message, Modal, Popconfirm, Space, Table } from 'antd';\nimport { request } from '@umijs/max';\n\nconst Group = () => {\n  return (\n    <div>\n      <h1>Group Page</h1>\n      {/* Ваше содержимое для Group страницы */}\n    </div>\n  );\n};\n\n//export default Group;\n\ninterface Group {\n  id: number;\n  name: string;\n}\n\nexport default function GroupPage() {\n  const [dataSource, setDataSource] = useState<Group[]>([]);\n  const [isModalOpen, setIsModalOpen] = useState(false);\n  const [form] = Form.useForm();\n\n  // Загрузка всех групп\n  const loadGroups = () => {\n    request('/api/Group/GetAll', { method: 'GET' })\n      .then((result: Group[]) => setDataSource(result))\n      .catch(() => message.error('Ошибка загрузки групп'));\n  };\n\n  useEffect(() => {\n    loadGroups();\n  }, []);\n\n  // Добавление или редактирование\n  const onFinish = (values: any) => {\n    if (values.id) {\n      // Редактирование (POST)\n      request('/api/Group/Post', {\n        method: 'POST',\n        data: values,\n      })\n        .then(() => {\n          message.success('Группа обновлена');\n          setIsModalOpen(false);\n          loadGroups();\n        })\n        .catch(() => message.error('Ошибка при обновлении группы'));\n    } else {\n      // Добавление (PUT)\n      request('/api/Group/Add', {\n        method: 'PUT',\n        data: { name: values.name },\n      })\n        .then(() => {\n          message.success('Группа добавлена');\n          setIsModalOpen(false);\n          loadGroups();\n        })\n        .catch(() => message.error('Ошибка при добавлении группы'));\n    }\n  };\n\n  // Удаление\n  const onRemove = (id: number) => {\n    request(`/api/Group/Delete?id=${id}`, { method: 'DELETE' })\n      .then(() => {\n        message.success('Группа удалена');\n        loadGroups();\n      })\n      .catch(() => message.error('Ошибка при удалении группы'));\n  };\n\n  // Открыть модалку редактирования\n  const onEdit = (record: Group) => {\n    form.setFieldsValue(record);\n    setIsModalOpen(true);\n  };\n\n  // Открыть модалку добавления\n  const onAdd = () => {\n    form.resetFields();\n    setIsModalOpen(true);\n  };\n\n  const columns = [\n    { title: 'Id', dataIndex: 'id' },\n    { title: 'Название', dataIndex: 'name' },\n    {\n      title: 'Действия',\n      render: (_: any, record: Group) => (\n        <Space>\n          <Button type=\"link\" onClick={() => onEdit(record)}>Редактировать</Button>\n          <Popconfirm title=\"Удалить группу?\" okText=\"Да\" cancelText=\"Нет\" onConfirm={() => onRemove(record.id)}>\n            <Button type=\"link\" danger>Удалить</Button>\n          </Popconfirm>\n        </Space>\n      ),\n    },\n  ];\n\n  return (\n    <div>\n      <Button type=\"primary\" style={{ marginBottom: 16 }} onClick={onAdd}>\n        Добавить группу\n      </Button>\n      <Table rowKey=\"id\" columns={columns} dataSource={dataSource} />\n\n      <Modal\n        title=\"Группа\"\n        open={isModalOpen}\n        onCancel={() => setIsModalOpen(false)}\n        footer={null}\n        destroyOnClose\n      >\n        <Form form={form} onFinish={onFinish} layout=\"vertical\">\n          <Form.Item name=\"id\" hidden>\n            <Input />\n          </Form.Item>\n          <Form.Item\n            label=\"Название\"\n            name=\"name\"\n            rules={[{ required: true, message: 'Введите название группы' }]}\n          >\n            <Input placeholder=\"Введите название группы\" />\n          </Form.Item>\n          <Form.Item>\n            <Button type=\"primary\" htmlType=\"submit\" block>\n              Сохранить\n            </Button>\n          </Form.Item>\n        </Form>\n      </Modal>\n    </div>\n  );\n}\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/Group.tsx"
+    },
+    "6": {
+      "path": "/user/:id",
+      "file": "@/pages/user/$id.tsx",
+      "parentId": "@@/global-layout",
+      "id": "6",
+      "absPath": "/user/:id",
+      "__content": "import DeveloperList from \"@/coments/DeveloperList\";\nimport { Input } from \"antd\";\nimport { useParams } from \"umi\";\n\nexport default function () {\n  const params = useParams();\n\n  return (\n    \n    <div>\n      {params.id}\n    </div>\n  );\n};\n\n\n",
+      "__isJSFile": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/pages/user/$id.tsx"
+    },
+    "@@/global-layout": {
+      "id": "@@/global-layout",
+      "path": "/",
+      "file": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/layouts/index.tsx",
+      "absPath": "/",
+      "isLayout": true,
+      "__absFile": "C:/УРФУ УЧЕБА/2 семестр/App/StudentClientApp/student/StudentClientApp/src/layouts/index.tsx"
+    }
+  },
+  "apiRoutes": {},
+  "hasSrcDir": true,
+  "npmClient": "npm",
+  "umi": {
+    "version": "4.4.11",
+    "name": "Umi Max",
+    "importSource": "@umijs/max",
+    "cliName": "max"
+  },
+  "bundleStatus": {
+    "done": false
+  },
+  "mfsuBundleStatus": {
+    "done": false
+  },
+  "react": {
+    "version": "18.3.1",
+    "path": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react"
+  },
+  "react-dom": {
+    "version": "18.3.1",
+    "path": "C:\\УРФУ УЧЕБА\\2 семестр\\App\\StudentClientApp\\student\\node_modules\\react-dom"
+  },
+  "appJS": null,
+  "locale": "en-US",
+  "globalCSS": [],
+  "globalJS": [],
+  "overridesCSS": [],
+  "bundler": "webpack",
+  "git": {},
+  "framework": "react",
+  "typescript": {
+    "tsVersion": "5.8.3",
+    "tslibVersion": "2.8.1"
+  },
+  "faviconFiles": [],
+  "port": 8000,
+  "host": "0.0.0.0",
+  "ip": "10.8.0.22"
+}
